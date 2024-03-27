@@ -18,6 +18,7 @@
 使用说明：  
 1、安装GitHub CLI，并执行`gh auth login`登录你的账号。
 （如果不会用可以看其他人写的这篇文章[https://blog.csdn.net/qq_34438779/article/details/128606768](https://blog.csdn.net/qq_34438779/article/details/128606768)）  
-2、修改脚本，将前几行中相对应的信息填写进去
+2、修改脚本，将前几行中相对应的信息填写进去  
+![image](https://github.com/201853910/Auto-Download-And-Update-Github-Repo-And-Releases/assets/54168192/09f94001-d71e-464d-b08e-c6c3a7558c48)  
 3、执行脚本，测试一下是否能正常执行
 3、添加定时任务，设置每天几点定时执行
