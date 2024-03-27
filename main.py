@@ -67,7 +67,7 @@ def download_source(owner, repo, latest_tag, directory, max_retries=3):
     while retry_count < max_retries:
         try:
             # 下载源码并保存为 zip 格式到指定目录
-            cmd = f"gh release download -R {owner}/{repo} {latest_tag} --clobber -A zip -D {directory}sources/{repo}/{shlex.quote(latest_tag)}"
+            cmd = f"gh release download -R {owner}/{repo} {latest_tag} --clobber -A zip -D {directory}Sources/{repo}/{shlex.quote(latest_tag)}"
             output = subprocess.check_output(cmd, shell=True).decode('utf-8')
             if output:
                 err_msg = (f"【release源码下载错误】{owner}/{repo}存储库tag版本【{latest_tag}】发生了错误：{output}")
